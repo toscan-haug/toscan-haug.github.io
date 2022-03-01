@@ -1,3 +1,14 @@
-# toscan-haug.github.io
+## Welcome to my Portfolio
 
-Le 06 est dans la place
+Available at [https://toscan-haug.github.io/]
+
+### Build
+
+With React (basic typescript + sass)
+
+Created with
+```
+npx create-react-app toscan-haug.github.io --template typescript
+cd toscan-haug.github.io
+npm install -s gh-pages react-router-dom sass
+```

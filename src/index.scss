@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #282c34;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+nav, .page {
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  height: 50px;
+  z-index: 500;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+}
+
+.page {
+  padding-top: 70px;
+  height: 100%;
+  background-image: none;
+
+  &.home-page {
+    background-image: url("assets/fed-of-circles-and-solitaries.svg");
+  }
+  &.music-page {
+    background-image: url("assets/macdonald-2.svg");
+  }
+  &.video-page {
+    background-image: url("assets/macdonald-of-clanranald-3.svg");
+  }
+  &.drawing-page {
+    background-image: url("assets/macdonald-of-prince-edward-island.svg");
+  }
+}

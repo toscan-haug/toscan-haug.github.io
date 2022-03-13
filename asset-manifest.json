@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.38868c40.css",
-    "main.js": "/static/js/main.c6f8e41f.js",
+    "main.css": "/static/css/main.c475db45.css",
+    "main.js": "/static/js/main.6c50ba38.js",
     "static/media/macdonald-of-prince-edward-island.svg": "/static/media/macdonald-of-prince-edward-island.91c7c6f4c7ffba331844.svg",
     "static/media/macdonald-of-clanranald-3.svg": "/static/media/macdonald-of-clanranald-3.4c4f5cb9f99b7ed7973a.svg",
     "static/media/macdonald-2.svg": "/static/media/macdonald-2.2d0caf9891a7f19a2252.svg",
     "static/media/fed-of-circles-and-solitaries.svg": "/static/media/fed-of-circles-and-solitaries.b79164321bf98c32d858.svg",
     "index.html": "/index.html",
-    "main.38868c40.css.map": "/static/css/main.38868c40.css.map",
-    "main.c6f8e41f.js.map": "/static/js/main.c6f8e41f.js.map"
+    "main.c475db45.css.map": "/static/css/main.c475db45.css.map",
+    "main.6c50ba38.js.map": "/static/js/main.6c50ba38.js.map"
   },
   "entrypoints": [
-    "static/css/main.38868c40.css",
-    "static/js/main.c6f8e41f.js"
+    "static/css/main.c475db45.css",
+    "static/js/main.6c50ba38.js"
   ]
 }

@@ -2,8 +2,12 @@ import {
   HashRouter as Router,
   Routes,
   Route,
-  Link, Outlet
-} from "react-router-dom";
+  Link,
+  Outlet,
+  LinkProps,
+  useResolvedPath,
+  useMatch,
+} from 'react-router-dom';
 
 import HomePage from '../pages/Home';
 import MusicPage from '../pages/Music';
@@ -11,28 +15,49 @@ import VideoPage from '../pages/Video';
 import DrawingPage from '../pages/Drawing';
 
 const App = () => {
-  return <Router>
-    <Routes>
-      <Route path="/"         element={<Layout />}>
-        <Route index          element={<HomePage />} />
-        <Route path="music"   element={<MusicPage />} />
-        <Route path="video"   element={<VideoPage />} />
-        <Route path="drawing" element={<DrawingPage />} />
-      </Route>
-    </Routes>
-  </Router>
-}
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="music" element={<MusicPage />} />
+          <Route path="video" element={<VideoPage />} />
+          <Route path="drawing" element={<DrawingPage />} />
+        </Route>
+      </Routes>
+    </Router>
+  );
+};
+
+const CustomNavLink = ({ children, to, ...props }: LinkProps) => {
+  let resolved = useResolvedPath(to);
+  let match = useMatch({ path: resolved.pathname, end: true });
+
+  return (
+    <li className={match ? 'nav-link active-link' : 'nav-link'}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  );
+};
 
 const Layout = () => {
-  return <div className="portfolio">
-    <nav>
-      <Link to="/"        >Home</Link> |{" "}
-      <Link to="/music"   >Musique</Link> |{" "}
-      <Link to="/video"   >Vidéo</Link> |{" "}
-      <Link to="/drawing" >Animation</Link>
-    </nav>
-    <Outlet/>
-  </div>
-}
+  return (
+    <div className="portfolio">
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <CustomNavLink to="/music">Musique</CustomNavLink>
+          <CustomNavLink to="/video">Vidéo</CustomNavLink>
+          <CustomNavLink to="/drawing">Animation</CustomNavLink>
+        </ul>
+      </nav>
+      <Outlet />
+    </div>
+  );
+};
 
 export default App;

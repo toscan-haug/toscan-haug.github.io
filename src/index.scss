@@ -16,39 +16,94 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-nav, .page {
-  position: fixed;
-  width: 100%;
-}
+///////////////////////////////////////////
 
 nav {
-  a {
-    color: #61dafb;
-    text-decoration: none;
-  }
+  position: fixed;
+  width: 100%;
   height: 50px;
   z-index: 500;
   background-color: rgba($color: #000000, $alpha: 0.5);
+
+  li {
+    display: inline;
+    padding: 5px 10px;
+    float: left;
+    &.nav-link {
+      float: right;
+    }
+    a {
+      color: #4ec3e4;
+      text-decoration: none;
+    }
+    &.active-link a {
+      color: #cdeaf1;
+    }
+  }
 }
 
-.page {
-  padding-top: 70px;
-  height: 100%;
+.portfolio-page {
+  padding-top: 50px;
+  // height: 100%;
+  width: 100%;
   background-image: none;
 
-  &.home-page {
-    background-image: url("assets/fed-of-circles-and-solitaries.svg");
+  h1,
+  .portfolio-section {
+    width: 80%;
+    max-width: 1024px;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 8px;
   }
-  &.music-page {
-    background-image: url("assets/macdonald-2.svg");
+
+  h1 {
+    font-size: calc(18px + 3vmin);
+
+    position: relative;
+    text-align: center;
+
+    background-image: url('assets/pink-fluid.png');
   }
-  &.video-page {
-    background-image: url("assets/macdonald-of-clanranald-3.svg");
+  &.video-page h1 {
+    background-image: url('assets/red-fluid.png');
   }
-  &.drawing-page {
-    background-image: url("assets/macdonald-of-prince-edward-island.svg");
+
+  .portfolio-section {
+    background-color: rgb(#6d6f77, 0.8);
+    box-shadow: inset rgba(184, 178, 178) 0px 0px 1px,
+      inset rgba(184, 178, 178) 0px 0px 5px,
+      inset rgba(184, 178, 178) 0px 0px 15px;
+
+    h2 {
+      font-size: calc(16px + 2vmin);
+      text-align: center;
+      margin: 0 0 10px 0;
+    }
+
+    .section-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 20px;
+      align-items: center;
+
+      & > :nth-child(1) {
+        grid-area: left;
+      }
+      & > :nth-child(2) {
+        grid-area: right;
+      }
+    }
+    &:nth-child(even) .section-container {
+      grid-template-areas: 'left right';
+    }
+    &:nth-child(odd) .section-container {
+      grid-template-areas: 'right left';
+    }
   }
 }

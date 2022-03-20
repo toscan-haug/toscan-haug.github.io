@@ -1,18 +1,7 @@
-import './Home.scss';
+import { Navigate } from 'react-router-dom';
 
-function HomePage() {
-  return <div className="home-page page">
-    <header className="home-header">
-      <a
-        className="home-link"
-        href="https://toscan-haug.github.io"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Portfolio de Toscan Haug
-      </a>
-    </header>
-  </div>;
-}
+const HomePage = () => {
+  return <Navigate to="/video" />;
+};
 
 export default HomePage;

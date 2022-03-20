@@ -1,0 +1,55 @@
+.card-wrapper {
+  position: relative;
+  height: 315px;
+  perspective: 2000px;
+  perspective-origin: bottom;
+
+  &.with-hover .card:hover,
+  .card.flipped-card {
+    transform: rotateY(180deg);
+  }
+
+  .card {
+    position: relative;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+    color: white;
+    font-weight: bold;
+
+    .card-recto,
+    .card-verso {
+      position: absolute;
+      //   height: 100%;
+      //   width: 100%;
+      inset: 0;
+      padding: 20px;
+      border-radius: 8px;
+      backface-visibility: hidden;
+      --webkit-backface-visibility: hidden;
+
+      .flip-button {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+      }
+    }
+    .card-recto {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      // DEBUG
+      background-color: black;
+    }
+    .card-verso {
+      transform: rotateY(180deg);
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      background-color: grey;
+    }
+  }
+}

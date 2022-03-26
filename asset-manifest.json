@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.98ee4f44.css",
-    "main.js": "/static/js/main.b4a6b0ac.js",
-    "static/media/macdonald-of-prince-edward-island.svg": "/static/media/macdonald-of-prince-edward-island.91c7c6f4c7ffba331844.svg",
-    "static/media/macdonald-of-clanranald-3.svg": "/static/media/macdonald-of-clanranald-3.4c4f5cb9f99b7ed7973a.svg",
-    "static/media/macdonald-2.svg": "/static/media/macdonald-2.2d0caf9891a7f19a2252.svg",
-    "static/media/fed-of-circles-and-solitaries.svg": "/static/media/fed-of-circles-and-solitaries.b79164321bf98c32d858.svg",
+    "main.css": "/static/css/main.ac977a30.css",
+    "main.js": "/static/js/main.afe4df8a.js",
+    "static/media/pink-fluid.png": "/static/media/pink-fluid.84245d497637e078f222.png",
+    "static/media/red-fluid.png": "/static/media/red-fluid.1432f9b2f9e829cf4270.png",
     "index.html": "/index.html",
-    "main.98ee4f44.css.map": "/static/css/main.98ee4f44.css.map",
-    "main.b4a6b0ac.js.map": "/static/js/main.b4a6b0ac.js.map"
+    "main.ac977a30.css.map": "/static/css/main.ac977a30.css.map",
+    "main.afe4df8a.js.map": "/static/js/main.afe4df8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.98ee4f44.css",
-    "static/js/main.b4a6b0ac.js"
+    "static/css/main.ac977a30.css",
+    "static/js/main.afe4df8a.js"
   ]
 }

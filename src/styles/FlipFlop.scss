@@ -24,7 +24,7 @@
       //   width: 100%;
       inset: 0;
       padding: 20px;
-      border-radius: 8px;
+      border-radius: 4px;
       backface-visibility: hidden;
       --webkit-backface-visibility: hidden;
 
@@ -33,19 +33,24 @@
       justify-content: space-between;
       align-items: center;
 
+      overflow: auto;
+
       .flip-icon,
       .flip-button {
         position: absolute;
-        right: 5px;
-        bottom: 5px;
+        right: 8px;
+        bottom: 0px;
+        font-size:2rem;
+        cursor: pointer;
       }
     }
     .card-recto {
-      background-color: black;
+      background-color: #2c2c2c;
+      // background-color: black;
     }
     .card-verso {
       transform: rotateY(180deg);
-      background-color: grey;
+      background-color: #2c2c2c;
     }
   }
 }

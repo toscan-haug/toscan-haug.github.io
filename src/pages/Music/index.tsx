@@ -9,7 +9,7 @@ const MusicPage = () => {
     <ScrolledPage className="music-page" title="Sound design">
       {/* ************************** */}
       <Section title="Chamonix">
-        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <YoutubePlayer url="https://www.youtube.com/embed/m9YlkZ4GfCE" />
         <FlipFlop
           recto={
             <>
@@ -23,13 +23,13 @@ const MusicPage = () => {
               Production sur FL
             </>
           }
-          hover={true}
+          hover={false}
         />
       </Section>
 
       {/* ************************** */}
       <Section title="Perdu">
-        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <YoutubePlayer url="https://www.youtube.com/embed/ZbDB1EGcr8s" />
         <FlipFlop
           recto={<>Panning</>}
           verso={
@@ -38,13 +38,13 @@ const MusicPage = () => {
               Production sur FL
             </>
           }
-          hover={true}
+          hover={false}
         />
       </Section>
 
       {/* ************************** */}
       <Section title="Mississipi">
-        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <YoutubePlayer url="https://www.youtube.com/embed/LRb7EPptC3Y" />
         <FlipFlop
           recto={
             <>
@@ -58,13 +58,13 @@ const MusicPage = () => {
               Production sur FL
             </>
           }
-          hover={true}
+          hover={false}
         />
       </Section>
 
       {/* ************************** */}
       <Section title="Autre Chose">
-        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <YoutubePlayer url="https://www.youtube.com/embed/mHUGT3_ocKQ" />
         <FlipFlop
           recto={
             <>
@@ -79,13 +79,13 @@ const MusicPage = () => {
               Production sur FL
             </>
           }
-          hover={true}
+          hover={false}
         />
       </Section>
 
       {/* ************************** */}
       <Section title="Pink Stars">
-        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <YoutubePlayer url="https://www.youtube.com/embed/4mBPRvEN6F8" />
         <FlipFlop
           recto={
             <>
@@ -100,7 +100,7 @@ const MusicPage = () => {
               Production sur FL
             </>
           }
-          hover={true}
+          hover={false}
         />
       </Section>
     </ScrolledPage>

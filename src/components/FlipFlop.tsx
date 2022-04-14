@@ -25,18 +25,18 @@ const FlipFlop = ({ recto, verso, hover }: FlipFlopProps) => {
       <div className={`card ${flipped ? 'flipped-card' : 'normal-card'}`}>
         <div className="card-recto" onClick={onClick}>
           {hover ? (
-            <div className="flip-icon">🔄</div>
+            <div className="flip-icon">→</div>
           ) : (
-            <div className="flip-button" onClick={onClick}>
-              💬⚡🔧🛠🔄
+            <div className="flip-button" onClick={onClick} title="verso">
+              →
             </div>
           )}
           {recto}
         </div>
         <div className="card-verso" onClick={onClick}>
           {!hover && (
-            <div className="flip-button" onClick={onClick}>
-              🎦🔄
+            <div className="flip-button" onClick={onClick} title="recto">
+              →
             </div>
           )}
           {verso}

@@ -6,20 +6,30 @@ import YoutubePlayer from '../../components/YoutubePlayer';
 
 const MusicPage = () => {
   return (
-    <ScrolledPage className="music-page" title="Sound design">
+    <ScrolledPage className="music-page" title="Musique">
       {/* ************************** */}
       <Section title="Chamonix">
         <YoutubePlayer url="https://www.youtube.com/embed/m9YlkZ4GfCE" />
         <FlipFlop
           recto={
             <>
-              (0m 46s) <br />
-              Collaboration avec <br />
+              Composition pour Jeune Homme <br /><br />
+
+              Univers de la neige et du cartoon. <br/><br/>
+
+              Sons secs et rebondissants <br/>
+              Illustrer les soubresauts.
             </>
           }
           verso={
             <>
-              Production sur FL <br />
+              Production sur FL et Synthétiseur <br /><br />
+
+              Basse en sound design <br/>
+
+              Sample de grincements <br/>
+
+              Rythmique expérimentale
             </>
           }
           hover={false}
@@ -32,14 +42,21 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
-              (1m 46s) <br />
-              Collaboration avec <br />
+              Composition pour Jeune Homme <br /><br />
+
+              Entre hésitation et confusion. <br/><br/>
+
+              Travail sur les voix <br />
+              Spatialisation et entrelacement <br />
             </>
           }
           verso={
             <>
-              Production sur FL <br />
-              Travail sur panning, voix <br />
+              Production sur FL <br /><br />
+
+              Réverb "Raum" <br />
+              Utilisation du bend pour dénaturer <br />
+              Automation pour dynamiser le morceau <br />
             </>
           }
           hover={false}
@@ -52,14 +69,19 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
-              (1m 45s) <br />
-              Collaboration avec <br />
-              Instrumental: Basse électrique, clarinette <br />
+              Collaboration instrumentale avec Hypnotic <br /><br />
+
+              Fan de Tom Sawyer. <br/><br/>
+
+              Inspirés par l'orchestration et les harmonisations de la série originale <br/>
+              Modernisation de l'esprit New Orleans
             </>
           }
           verso={
             <>
-              Production sur FL <br />
+              Production sur FL <br /><br />
+
+              Basse électrique et autres instruments samplés <br />
             </>
           }
           hover={false}
@@ -72,14 +94,20 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
-              (1m 43s) <br />
-              Collaboration avec <br />
-              Travail sur Lead et Choeurs <br />
+              Composition pour Jeune Homme <br /><br />
+
+              Inspiration Rap 90. <br/><br/>
+
+              Production épurée pour mettre en valeur les différentes voix <br/>
+              Pour finir sur plus de vacarme.
             </>
           }
           verso={
             <>
-              Production sur FL <br />
+              Production sur FL <br /><br/>
+
+              Humanisation du rythme <br/>
+              Travail de la distorsion <br/>
             </>
           }
           hover={false}
@@ -92,14 +120,21 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
-              (1m 45s) <br />
-              Collaboration avec <br />
-              Piano et Cordes <br />
+              Instrumental pianos et cordes <br /><br />
+
+              Musique d'épopée fantastique <br/><br/>
+
+              Précision du placement des différents intruments<br/>
+              Maîtrise de la tension générale du morceau
             </>
           }
           verso={
             <>
-              Production sur FL <br />
+              Production sur FL <br /><br/>
+
+              Effet vynil <br/>
+              Réverb "Raum" <br/>
+              Piano "Noire", "Emotive Strings" et "Symphony Essential Woodwind"
             </>
           }
           hover={false}

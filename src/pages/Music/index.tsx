@@ -13,14 +13,13 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
+              (0m 46s) <br />
               Collaboration avec <br />
-              Production sur FL
             </>
           }
           verso={
             <>
-              Collaboration avec <br />
-              Production sur FL
+              Production sur FL <br />
             </>
           }
           hover={false}
@@ -31,11 +30,16 @@ const MusicPage = () => {
       <Section title="Perdu">
         <YoutubePlayer url="https://www.youtube.com/embed/ZbDB1EGcr8s" />
         <FlipFlop
-          recto={<>Panning</>}
+          recto={
+            <>
+              (1m 46s) <br />
+              Collaboration avec <br />
+            </>
+          }
           verso={
             <>
-              Collaboration avec <br />
-              Production sur FL
+              Production sur FL <br />
+              Travail sur panning, voix <br />
             </>
           }
           hover={false}
@@ -48,14 +52,14 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
+              (1m 45s) <br />
               Collaboration avec <br />
-              Production sur FL
+              Instrumental: Basse électrique, clarinette <br />
             </>
           }
           verso={
             <>
-              Collaboration avec <br />
-              Production sur FL
+              Production sur FL <br />
             </>
           }
           hover={false}
@@ -68,15 +72,14 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
+              (1m 43s) <br />
               Collaboration avec <br />
-              Production sur FL <br />
-              Equilibre voix
+              Travail sur Lead et Choeurs <br />
             </>
           }
           verso={
             <>
-              Collaboration avec <br />
-              Production sur FL
+              Production sur FL <br />
             </>
           }
           hover={false}
@@ -89,15 +92,14 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
+              (1m 45s) <br />
               Collaboration avec <br />
-              Production sur FL <br />
-              Piano et Cordes
+              Piano et Cordes <br />
             </>
           }
           verso={
             <>
-              Collaboration avec <br />
-              Production sur FL
+              Production sur FL <br />
             </>
           }
           hover={false}

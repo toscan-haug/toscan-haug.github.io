@@ -11,7 +11,7 @@ import {
 
 import HomePage from '../pages/Home';
 import MusicPage from '../pages/Music';
-import VideoPage from '../pages/Video';
+// import VideoPage from '../pages/Video';
 import DrawingPage from '../pages/Drawing';
 
 const App = () => {
@@ -36,7 +36,7 @@ const CustomNavLink = ({ children, to, ...props }: LinkProps) => {
   return (
     <li className={match ? 'nav-link active-link' : 'nav-link'}>
       <Link to={to} {...props}>
-        <span className="puce">{match ? '◉' : ''}</span>
+        <span className="puce">{match ? '◉' : '○'}</span>
         <span>{children}</span>
       </Link>
     </li>

@@ -11,7 +11,7 @@ import {
 
 import HomePage from '../pages/Home';
 import MusicPage from '../pages/Music';
-import VideoPage from '../pages/Video';
+// import VideoPage from '../pages/Video';
 import DrawingPage from '../pages/Drawing';
 
 const App = () => {
@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="music" element={<MusicPage />} />
-          <Route path="video" element={<VideoPage />} />
+          {/* <Route path="video" element={<VideoPage />} /> */}
           <Route path="drawing" element={<DrawingPage />} />
         </Route>
       </Routes>
@@ -36,8 +36,8 @@ const CustomNavLink = ({ children, to, ...props }: LinkProps) => {
   return (
     <li className={match ? 'nav-link active-link' : 'nav-link'}>
       <Link to={to} {...props}>
-        {children}
-        <span className='puce'>{match ?'◉' : ''}</span>
+        <span className="puce">{match ? '◉' : '○'}</span>
+        <span>{children}</span>
       </Link>
     </li>
   );

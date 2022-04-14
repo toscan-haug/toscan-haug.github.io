@@ -9,18 +9,17 @@ const MusicPage = () => {
     <ScrolledPage className="music-page" title="Sound design">
       {/* ************************** */}
       <Section title="Chamonix">
-        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <YoutubePlayer url="https://www.youtube.com/embed/m9YlkZ4GfCE" />
         <FlipFlop
           recto={
             <>
+              (0m 46s) <br />
               Collaboration avec <br />
-              Production sur FL
             </>
           }
           verso={
             <>
-              Collaboration avec <br />
-              Production sur FL
+              Production sur FL <br />
             </>
           }
           hover={false}
@@ -29,13 +28,18 @@ const MusicPage = () => {
 
       {/* ************************** */}
       <Section title="Perdu">
-        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <YoutubePlayer url="https://www.youtube.com/embed/ZbDB1EGcr8s" />
         <FlipFlop
-          recto={<>Panning</>}
+          recto={
+            <>
+              (1m 46s) <br />
+              Collaboration avec <br />
+            </>
+          }
           verso={
             <>
-              Collaboration avec <br />
-              Production sur FL
+              Production sur FL <br />
+              Travail sur panning, voix <br />
             </>
           }
           hover={false}
@@ -44,18 +48,18 @@ const MusicPage = () => {
 
       {/* ************************** */}
       <Section title="Mississipi">
-        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <YoutubePlayer url="https://www.youtube.com/embed/LRb7EPptC3Y" />
         <FlipFlop
           recto={
             <>
+              (1m 45s) <br />
               Collaboration avec <br />
-              Production sur FL
+              Instrumental: Basse électrique, clarinette <br />
             </>
           }
           verso={
             <>
-              Collaboration avec <br />
-              Production sur FL
+              Production sur FL <br />
             </>
           }
           hover={false}
@@ -64,19 +68,18 @@ const MusicPage = () => {
 
       {/* ************************** */}
       <Section title="Autre Chose">
-        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <YoutubePlayer url="https://www.youtube.com/embed/mHUGT3_ocKQ" />
         <FlipFlop
           recto={
             <>
+              (1m 43s) <br />
               Collaboration avec <br />
-              Production sur FL <br />
-              Equilibre voix
+              Travail sur Lead et Choeurs <br />
             </>
           }
           verso={
             <>
-              Collaboration avec <br />
-              Production sur FL
+              Production sur FL <br />
             </>
           }
           hover={false}
@@ -85,19 +88,18 @@ const MusicPage = () => {
 
       {/* ************************** */}
       <Section title="Pink Stars">
-        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <YoutubePlayer url="https://www.youtube.com/embed/4mBPRvEN6F8" />
         <FlipFlop
           recto={
             <>
+              (1m 45s) <br />
               Collaboration avec <br />
-              Production sur FL <br />
-              Piano et Cordes
+              Piano et Cordes <br />
             </>
           }
           verso={
             <>
-              Collaboration avec <br />
-              Production sur FL
+              Production sur FL <br />
             </>
           }
           hover={false}

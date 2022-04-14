@@ -7,16 +7,101 @@ import LoremIpsum from '../../components/LoremIpsum';
 const MusicPage = () => {
   return (
     <ScrolledPage className="music-page" title="Plein de musique">
-      {/* ************* premiere dessin ************* */}
-      <Section title="Ma première musique">
+      {/* ************************** */}
+      <Section title="Chamonix">
         <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
-        <FlipFlop recto={<LoremIpsum />} verso={<LoremIpsum />} hover={true} />
+        <FlipFlop
+          recto={
+            <>
+              Collaboration avec <br />
+              Production sur FL
+            </>
+          }
+          verso={
+            <>
+              Collaboration avec <br />
+              Production sur FL
+            </>
+          }
+          hover={true}
+        />
       </Section>
 
-      {/* ************* deuxieme dessin ************* */}
-      <Section title="Ma deuxième musique">
+      {/* ************************** */}
+      <Section title="Perdu">
         <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
-        <FlipFlop recto={<LoremIpsum />} verso={<LoremIpsum />} hover={true} />
+        <FlipFlop
+          recto={<>Panning</>}
+          verso={
+            <>
+              Collaboration avec <br />
+              Production sur FL
+            </>
+          }
+          hover={true}
+        />
+      </Section>
+
+      {/* ************************** */}
+      <Section title="Mississipi">
+        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <FlipFlop
+          recto={
+            <>
+              Collaboration avec <br />
+              Production sur FL
+            </>
+          }
+          verso={
+            <>
+              Collaboration avec <br />
+              Production sur FL
+            </>
+          }
+          hover={true}
+        />
+      </Section>
+
+      {/* ************************** */}
+      <Section title="Autre Chose">
+        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <FlipFlop
+          recto={
+            <>
+              Collaboration avec <br />
+              Production sur FL <br/>
+              Equilibre voix
+            </>
+          }
+          verso={
+            <>
+              Collaboration avec <br />
+              Production sur FL
+            </>
+          }
+          hover={true}
+        />
+      </Section>
+
+      {/* ************************** */}
+      <Section title="Pink Stars">
+        <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
+        <FlipFlop
+          recto={
+            <>
+              Collaboration avec <br />
+              Production sur FL <br />
+              Piano et Cordes
+            </>
+          }
+          verso={
+            <>
+              Collaboration avec <br />
+              Production sur FL
+            </>
+          }
+          hover={true}
+        />
       </Section>
     </ScrolledPage>
   );

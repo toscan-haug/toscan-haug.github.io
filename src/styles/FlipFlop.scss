@@ -28,6 +28,11 @@
       backface-visibility: hidden;
       --webkit-backface-visibility: hidden;
 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
       .flip-button {
         position: absolute;
         right: 5px;
@@ -35,20 +40,10 @@
       }
     }
     .card-recto {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      // DEBUG
       background-color: black;
     }
     .card-verso {
       transform: rotateY(180deg);
-
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-
       background-color: grey;
     }
   }

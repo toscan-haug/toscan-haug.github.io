@@ -47,11 +47,11 @@ const Layout = () => {
     <div className="portfolio">
       <nav>
         <ul>
-          <li>
+          {/* <li>
             <Link to="/">Home</Link>
-          </li>
+          </li> */}
           <CustomNavLink to="/music">Musique</CustomNavLink>
-          <CustomNavLink to="/video">Vidéo</CustomNavLink>
+          {/* <CustomNavLink to="/video">Vidéo</CustomNavLink> */}
           <CustomNavLink to="/drawing">Animation</CustomNavLink>
         </ul>
       </nav>

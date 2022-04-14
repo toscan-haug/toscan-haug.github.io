@@ -33,10 +33,11 @@
       justify-content: space-between;
       align-items: center;
 
+      .flip-icon,
       .flip-button {
         position: absolute;
         right: 5px;
-        top: 5px;
+        bottom: 5px;
       }
     }
     .card-recto {

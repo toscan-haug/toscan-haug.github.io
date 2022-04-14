@@ -6,7 +6,7 @@ import LoremIpsum from '../../components/LoremIpsum';
 
 const DrawingPage = () => {
   return (
-    <ScrolledPage className="drawing-page" title="Plein de dessins">
+    <ScrolledPage className="drawing-page" title="Animations et dessins">
       {/* ************* premiere dessin ************* */}
       <Section title="Mon premier dessin">
         <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />

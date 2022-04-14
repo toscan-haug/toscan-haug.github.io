@@ -22,34 +22,49 @@ code {
 
 ///////////////////////////////////////////
 
-nav {
-  position: fixed;
-  width: 100%;
-  height: 50px;
-  z-index: 500;
-  background-color: rgba($color: #000000, $alpha: 0.5);
+$BAR-WIDTH: 100px;
 
-  li {
-    display: inline;
-    padding: 5px 10px;
-    float: left;
-    &.nav-link {
-      float: right;
-    }
-    a {
-      color: #4ec3e4;
-      text-decoration: none;
-    }
-    &.active-link a {
-      color: #cdeaf1;
+#root {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  .portfolio {
+    // position: relative;
+    top: 0;
+    margin-left: $BAR-WIDTH;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $BAR-WIDTH;
+    height: 100%;
+    z-index: 500;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+
+    li {
+      display: inline;
+      padding: 5px 10px;
+      float: left;
+      // &.nav-link {
+      //   float: right;
+      // }
+      a {
+        color: #4994a9;
+        text-decoration: none;
+      }
+      &.active-link a {
+        color: #cdeaf1;
+      }
     }
   }
 }
 
 .portfolio-page {
-  padding-top: 50px;
-  // height: 100%;
-  width: 100%;
+  width: auto;
   background-image: none;
 
   h1,
@@ -57,27 +72,34 @@ nav {
     width: 80%;
     max-width: 1024px;
     margin: 30px auto;
-    padding: 15px;
-    border-radius: 8px;
+    border-radius: 2px;
   }
 
   h1 {
-    font-size: calc(18px + 3vmin);
+    padding: 30px 15px;
+    font-size: calc(24px + 3vmin);
 
     position: relative;
     text-align: center;
 
-    background-image: url('assets/pink-fluid.png');
+    box-shadow: inset rgba(184, 178, 178) 0px 0px 5px;
   }
-  &.video-page h1 {
+  &.music-page h1 {
+    background-image: url('assets/pink-fluid.png');
+    background-position: 70% 50%;
+  }
+  &.drawing-page h1 {
     background-image: url('assets/red-fluid.png');
+    background-position: 50% 50%;
   }
 
   .portfolio-section {
+    padding: 15px;
     background-color: rgb(#6d6f77, 0.8);
-    box-shadow: inset rgba(184, 178, 178) 0px 0px 1px,
-      inset rgba(184, 178, 178) 0px 0px 5px,
-      inset rgba(184, 178, 178) 0px 0px 15px;
+    box-shadow:
+    // inset rgba(184, 178, 178) 0px 0px 1px;
+      inset rgba(184, 178, 178) 0px 0px 5px;
+    // inset rgba(184, 178, 178) 0px 0px 15px;
 
     h2 {
       font-size: calc(16px + 2vmin);

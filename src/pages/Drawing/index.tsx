@@ -10,13 +10,13 @@ const DrawingPage = () => {
       {/* ************* premiere dessin ************* */}
       <Section title="Mon premier dessin">
         <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
-        <FlipFlop recto={<LoremIpsum />} verso={<LoremIpsum />} hover={true} />
+        <FlipFlop recto={<LoremIpsum />} verso={<LoremIpsum />} hover={false} />
       </Section>
 
       {/* ************* deuxieme dessin ************* */}
       <Section title="Mon deuxième dessin">
         <YoutubePlayer url="https://www.youtube.com/embed/zXHcmpBGoEg" />
-        <FlipFlop recto={<LoremIpsum />} verso={<LoremIpsum />} hover={true} />
+        <FlipFlop recto={<LoremIpsum />} verso={<LoremIpsum />} hover={false} />
       </Section>
     </ScrolledPage>
   );

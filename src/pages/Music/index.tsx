@@ -23,7 +23,7 @@ const MusicPage = () => {
               Production sur FL
             </>
           }
-          hover={true}
+          hover={false}
         />
       </Section>
 
@@ -38,7 +38,7 @@ const MusicPage = () => {
               Production sur FL
             </>
           }
-          hover={true}
+          hover={false}
         />
       </Section>
 
@@ -58,7 +58,7 @@ const MusicPage = () => {
               Production sur FL
             </>
           }
-          hover={true}
+          hover={false}
         />
       </Section>
 
@@ -79,7 +79,7 @@ const MusicPage = () => {
               Production sur FL
             </>
           }
-          hover={true}
+          hover={false}
         />
       </Section>
 
@@ -100,7 +100,7 @@ const MusicPage = () => {
               Production sur FL
             </>
           }
-          hover={true}
+          hover={false}
         />
       </Section>
     </ScrolledPage>

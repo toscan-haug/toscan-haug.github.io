@@ -37,6 +37,7 @@ const CustomNavLink = ({ children, to, ...props }: LinkProps) => {
     <li className={match ? 'nav-link active-link' : 'nav-link'}>
       <Link to={to} {...props}>
         {children}
+        <span className='puce'>{match ?'◉' : ''}</span>
       </Link>
     </li>
   );

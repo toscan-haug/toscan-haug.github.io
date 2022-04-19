@@ -12,12 +12,13 @@ const VideoPage = () => {
         <FlipFlop
           recto={
             <>
-              Composition pour Jeune Homme <br />
-            </>
-          }
-          verso={
-            <>
-              Production sur FL et Synthétiseur <br />
+              <h3> </h3>
+              Production sur Blender <br />
+              <br />
+              Modélisation d'un décor de désert<br />
+              Shader "cartoon"<br />
+              Animation d'un personnage<br />
+              Travail sur les travelings et les flous<br/>
             </>
           }
           hover={false}
@@ -30,12 +31,13 @@ const VideoPage = () => {
         <FlipFlop
           recto={
             <>
-              Composition pour Jeune Homme <br />
-            </>
-          }
-          verso={
-            <>
-              Production sur FL et Synthétiseur <br />
+              <h3> </h3>
+              Production sur Maya <br />
+              <br />
+              Travail de stage à l'ESRA <br />
+              Rigging de la lampe<br />
+              Suivi de trajectoire<br />
+              Palette inspirée du film Sin City<br />
             </>
           }
           hover={false}

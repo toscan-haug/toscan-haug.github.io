@@ -6,26 +6,17 @@ const DrawingPage = () => {
   return (
     <ScrolledPage className="drawing-page" title="Dessins">
       {/* ************************** */}
-      <Section title="Donut 'n Tea">
+      <Section title="Donut">
         <div className="image-player donut-image" />
         <FlipFlop
           recto={
             <>
-              Composition pour Jeune Homme <br />
+              <h3> </h3>
+              Production sur Blender <br />
               <br />
-              Univers de la neige et du cartoon. <br />
-              <br />
-              Sons secs et rebondissants <br />
-              Illustrer les soubresauts.
-            </>
-          }
-          verso={
-            <>
-              Production sur FL et Synthétiseur <br />
-              <br />
-              Basse en sound design <br />
-              Sample de grincements <br />
-              Rythmique expérimentale
+              Sculpting et modélisation <br />
+              Texturing complexe <br />
+              Travail sur les liquides
             </>
           }
           hover={false}
@@ -33,17 +24,15 @@ const DrawingPage = () => {
       </Section>
 
       {/* ************************** */}
-      <Section title="Sweet Bagel">
+      <Section title="Bagel">
         <div className="image-player bagel-image" />
         <FlipFlop
           recto={
             <>
-              Composition pour Jeune Homme <br />
-            </>
-          }
-          verso={
-            <>
-              Production sur FL et Synthétiseur <br />
+              <h3> </h3>
+              Production sur Blender <br />
+              <br />
+              Exploration du shader "cartoon" <br />
             </>
           }
           hover={false}
@@ -51,17 +40,16 @@ const DrawingPage = () => {
       </Section>
 
       {/* ************************** */}
-      <Section title="Juice Wrld">
+      <Section title="Caricature de JuiceWrld">
         <div className="image-player juice-wrld-image" />
         <FlipFlop
           recto={
             <>
-              Composition pour Jeune Homme <br />
-            </>
-          }
-          verso={
-            <>
-              Production sur FL et Synthétiseur <br />
+              <h3> </h3>
+              Production sur Affinity <br />
+              <br />
+              Caricature faite sur tablette graphique <br />
+              Recherche sur les brushs <br />
             </>
           }
           hover={false}
@@ -69,17 +57,17 @@ const DrawingPage = () => {
       </Section>
 
       {/* ************************** */}
-      <Section title="Image 4">
+      <Section title="Marbrures">
         <div className="image-player warped-image" />
         <FlipFlop
           recto={
             <>
-              Composition pour Jeune Homme <br />
-            </>
-          }
-          verso={
-            <>
-              Production sur FL et Synthétiseur <br />
+              <h3> </h3>
+              Production sur Affinity <br />
+              <br />
+              Gestion de palette <br />
+              Effet "Glow" manuel <br />
+              Composition de distorsions <br />
             </>
           }
           hover={false}

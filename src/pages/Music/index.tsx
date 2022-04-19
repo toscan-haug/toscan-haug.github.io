@@ -13,17 +13,19 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
+              <h3>Fiche artistique</h3>
               Composition pour Jeune Homme <br />
               <br />
-              Univers de la neige et du cartoon. <br />
+              Univers de la neige et du cartoon <br />
               <br />
-              Sons secs et rebondissants <br />
-              Illustrer les soubresauts.
+              Sons secs et rebondissants, <br />
+              pour illustrer les soubresauts.
             </>
           }
           verso={
             <>
-              Production sur FL et Synthétiseur <br />
+              <h3>Fiche technique</h3>
+              Production sur FL Studio et Synthétiseur <br />
               <br />
               Basse en sound design <br />
               Sample de grincements <br />
@@ -40,21 +42,23 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
+              <h3>Fiche artistique</h3>
               Composition pour Jeune Homme <br />
               <br />
-              Entre hésitation et confusion. <br />
+              Entre hésitation et confusion <br />
               <br />
               Travail sur les voix <br />
-              Spatialisation et entrelacement <br />
+              Spatialisation et entrelacement
             </>
           }
           verso={
             <>
-              Production sur FL <br />
+              <h3>Fiche technique</h3>
+              Production sur FL Studio <br />
               <br />
               Réverb "Raum" <br />
-              Utilisation du bend pour dénaturer <br />
-              Automation pour dynamiser le morceau <br />
+              Utilisation du bend pour déstabiliser <br />
+              Automations pour dynamiser le morceau
             </>
           }
           hover={false}
@@ -67,20 +71,22 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
+              <h3>Fiche artistique</h3>
               Collaboration instrumentale avec Hypnotic <br />
               <br />
-              Fan de Tom Sawyer. <br />
+              Hommage d'un fan à Tom Sawyer <br />
               <br />
               Inspirés par l'orchestration et les harmonisations de la série
               originale <br />
-              Modernisation de l'esprit New Orleans
+              Modernisation du style
             </>
           }
           verso={
             <>
-              Production sur FL <br />
+              <h3>Fiche technique</h3>
+              Production sur FL Studio <br />
               <br />
-              Basse électrique et autres instruments samplés <br />
+              Basse électrique et autres instruments d'orchestre samplés
             </>
           }
           hover={false}
@@ -93,21 +99,23 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
+              <h3>Fiche artistique</h3>
               Composition pour Jeune Homme <br />
               <br />
-              Inspiration Rap 90. <br />
+              Inspiration Rap 90 <br />
               <br />
-              Production épurée pour mettre en valeur les différentes voix{' '}
+              Production épurée pour mettre en valeur les différentes voix,
               <br />
-              Pour finir sur plus de vacarme.
+              pour finir sur plus de vacarme
             </>
           }
           verso={
             <>
-              Production sur FL <br />
+              <h3>Fiche technique</h3>
+              Production sur FL Studio <br />
               <br />
               Humanisation du rythme <br />
-              Travail de la distorsion <br />
+              Travail de la distorsion
             </>
           }
           hover={false}
@@ -120,20 +128,22 @@ const MusicPage = () => {
         <FlipFlop
           recto={
             <>
+              <h3>Fiche artistique</h3>
               Instrumental pianos et cordes <br />
               <br />
               Musique d'épopée fantastique <br />
               <br />
-              Précision du placement des différents intruments
+              Placement précis des intruments
               <br />
               Maîtrise de la tension générale du morceau
             </>
           }
           verso={
             <>
-              Production sur FL <br />
+              <h3>Fiche technique</h3>
+              Production sur FL Studio <br />
               <br />
-              Effet vynil <br />
+              Effet vinyl <br />
               Réverb "Raum" <br />
               Piano "Noire", "Emotive Strings" et "Symphony Essential Woodwind"
             </>

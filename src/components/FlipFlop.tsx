@@ -9,10 +9,13 @@ type FlipFlopProps = {
 };
 
 const FlipFlop = ({ recto, verso, hover }: FlipFlopProps) => {
+  const hasVerso = verso !== undefined;
   const [flipped, setFlipped] = useState(false);
 
   const toggleFlip = () => {
-    setFlipped(!flipped);
+    if (hasVerso) {
+      setFlipped(!flipped);
+    }
   };
   const onClick = hover ? undefined : toggleFlip;
 
@@ -24,13 +27,13 @@ const FlipFlop = ({ recto, verso, hover }: FlipFlopProps) => {
     >
       <div className={`card ${flipped ? 'flipped-card' : 'normal-card'}`}>
         <div className="card-recto" onClick={onClick}>
-          {hover ? (
+          {hasVerso && (hover ? (
             <div className="flip-icon">→</div>
           ) : (
             <div className="flip-button" onClick={onClick} title="verso">
               →
             </div>
-          )}
+          )) }
           {recto}
         </div>
         <div className="card-verso" onClick={onClick}>

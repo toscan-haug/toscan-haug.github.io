@@ -104,6 +104,10 @@ $BAR-WIDTH: 180px;
     background-image: url('assets/red-fluid.png');
     background-position: 50% 50%;
   }
+  &.video-page h1 {
+    background-image: url('assets/red-fluid.png');
+    background-position: 50% 20%;
+  }
 
   .portfolio-section {
     padding: 15px;
@@ -138,6 +142,27 @@ $BAR-WIDTH: 180px;
     }
     &:nth-child(odd) .section-container {
       grid-template-areas: 'right left';
+    }
+
+    .image-player {
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+
+      &.bagel-image {
+        background-image: url('assets/Bagel.png');
+      }
+      &.donut-image {
+        background-image: url('assets/Donut.png');
+      }
+      &.juice-wrld-image {
+        background-image: url('assets/JuiceWrld.png');
+      }
+      &.warped-image {
+        background-image: url('assets/pink-fluid.png');
+      }
     }
   }
 }
